@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(171, 220, 235);
+}
+
+h1 {
+    background-color: #e5e2e5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    margin-top: 5%;
+    background-color:  rgb(171, 220, 235);
+}
+
+.calculator {
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #e5e2e5;
+}
+
+/* top div */
+
+.display {
+    background-color: gray;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.actionDisplay {
+    margin-bottom: auto;
+    margin-top: 5px;
+    margin-right: 10px;;
+    color: lightgray;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.totalDisplay {
+    margin-top: auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    color: white;
+    font-size: larger;
+}
+
+/* bottom div */
+
+.buttomDiv {
+    width: 300px;
+    height: 500px;
+}
+
+.row {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    gap: 20px;
+}
+
+.largeButton {
+    width: 95px;
+    height: 50px;
+}
+
+.smallButton {
+    width: 70px;
+    height: 50px;
+}
+
+/* row1 */
+
+#row1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#clearBtn, #deleteBtn {
+    width: 120px;
+}
+
+#divideBtn {
+    width: 70px;
+}
+
+/* row5 */
+
+#row5 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#enterBtn {
+    width: 165px;
+}
+
+/* Footer */
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #e5e2e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
